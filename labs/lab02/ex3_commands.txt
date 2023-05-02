@@ -2,4 +2,16 @@
 # Make sure each command is on its own line
 # Lines starting with # are comments, feel free to add any to document your commands
 
+break pwd_checker.c:check_number
+run
+step
+step
+break 31 if letter == '0'
+continue
+print letter
+print is_in_range
+print lower
+print upper
+quit
+
 # Please add your commands below this line
